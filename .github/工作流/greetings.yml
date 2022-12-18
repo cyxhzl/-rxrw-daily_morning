@@ -1,0 +1,55 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Message that will be displayed on users' first issue"
+        pr-message: "Message that will be displayed on users' first pull request"
+运行 pip install -r ./requirements.txt && python ./main.py
+收集证书==2022.6.15
+正在下载证书-2022.6.15-py3-none-any.whl （160 kB）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.2/160.2 KB 3.9 MB/秒 预计到达时间 0：00：00
+收集 cffi==1.15.1
+正在下载 cffi-1.15.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl （462 kB）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 462.6/462.6 KB 9.9 MB/秒 预计到达时间 0：00：00
+收集字符集规范化器==2.1.0
+正在下载 charset_normalizer-2.1.0-py3-none-any.whl （39 kB）
+收集加密==37.0.4
+下载加密-37.0.4-cp36-abi3-manylinux_2_24_x86_64.whl （4.1 MB）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.1/4.1 MB 23.6 MB/秒 预计到达时间 0：00：00
+收集 idna==3.3
+正在下载 idna-3.3-py3-none-any.whl （61 kB）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 KB 25.0 MB/秒预计到达时间 0：00：00
+收集可选字典==0.1.2
+正在下载 optionaldict-0.1.2-py2.py3-none-any.whl （3.8 kB）
+收集pycparser==2.21
+正在下载 pycparser-2.21-py2.py3-none-any.whl （118 kB）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 KB 43.6 MB/秒 预计到达时间 0：00：00
+收集 python-dateutil==2.8.2
+正在下载 python_dateutil-2.8.2-py2.py3-none-any.whl （247 kB）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 KB 57.1 MB/秒 预计到达时间 0：00：00
+收集请求==2.28.1
+正在下载请求-2.28.1-py3-none-any.whl （62 kB）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━��
+收集六==1.16.0
+正在下载 six-1.16.0-py2.py3-none-any.whl （11 kB）
+正在收集 urllib3==1.26.11
+正在下载 urllib3-1.26.11-py2.py3-none-any.whl （139 kB）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.9/139.9 KB 45.7 MB/秒 预计到达时间 0：00：00
+收集微信==1.8.18
+下载微信-1.8.18-py2.py3-none-any.whl （159 kB）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 159.2/159.2 KB 39.4 MB/秒 预计到达时间 0：00：00
+正在收集 xmltodict==0.13.0
+正在下载 xmltodict-0.13.0-py2.py3-none-any.whl （10.0 kB）
+安装收集的软件包：optionaldict，xmltodict，urllib3，six，pycparser，idna，charset-normalizer，certifi，requests，python-dateutil，cffi，wechatpy，cryptography
+已成功安装 证书-2022.6.15 cffi-1.15.1 字符集规范化器-2.1.0 加密-37.0.4 IDNA-3.3 可选字典-0.1.2 pycparser-2.21 python-dateutil-2.8.2 请求-2.28.1 六-1.16.0 urllib3-1.26.11 微信-1.8.18 xmltodict-0.13.0
+{'errcode'： 0， 'errmsg'： 'ok'， 'msgid'： 2697523080055013377}
